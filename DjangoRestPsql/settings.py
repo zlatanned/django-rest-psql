@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Django REST framework 
-    'rest_framework'
+    'rest_framework',
+    # Food Ordering application 
+    'FoodOrdering.apps.FoodorderingConfig',
 ]
 
 MIDDLEWARE = [
