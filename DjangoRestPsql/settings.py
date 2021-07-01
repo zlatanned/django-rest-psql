@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     # Django REST framework 
     'rest_framework',
     # Food Ordering application 
-    'FoodOrdering.apps.FoodorderingConfig',
+    'foodOrdering.apps.FoodorderingConfig',
     # CORS
     'corsheaders',
 ]
@@ -89,9 +89,9 @@ WSGI_APPLICATION = 'DjangoRestPsql.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'testdb',
-        'USER': 'postgres',
-        'PASSWORD': '123',
+        'NAME': 'foodorders',
+        'USER': 'akshay',
+        'PASSWORD': 'random123',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
