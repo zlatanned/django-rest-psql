@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'rest_framework',
     # Food Ordering application 
     'FoodOrdering.apps.FoodorderingConfig',
+    # CORS
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
